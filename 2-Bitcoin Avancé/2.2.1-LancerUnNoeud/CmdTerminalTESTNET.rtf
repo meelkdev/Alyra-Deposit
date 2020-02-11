@@ -1,0 +1,1095 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;\red255\green0\blue0;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 ##CONFIG (regtest, testnet, rpcport\'85) VIA bitcoin.conf\
+\
+
+\b meelkdevmac@meelkdevmac-VirtualBox:~$ bitcoind -daemon
+\b0 \
+Bitcoin Core starting\
+
+\b meelkdevmac@meelkdevmac-VirtualBox:~$ bitcoin-cli getpeerinfo
+\b0 \
+[ \cf2 ## PLUS DE CONNECTIONS AVEC TESTENT, NOEUDS EXISTANT\
+## 7 noeuds au total sans rien ajouter encore\cf0 \
+  \{\
+    "id": 3,\
+    "addr": "34.250.169.52:18333",\
+    "addrlocal": "82.226.83.16:55335",\
+    "addrbind": "10.0.2.15:36902",\
+    "services": "000000000000040d",\
+    "servicesnames": [\
+      "NETWORK",\
+      "BLOOM",\
+      "WITNESS",\
+      "NETWORK_LIMITED"\
+    ],\
+    "relaytxes": true,\
+    "lastsend": 1580577460,\
+    "lastrecv": 1580577460,\
+    "bytessent": 81910,\
+    "bytesrecv": 13936136,\
+    "conntime": 1580577445,\
+    "timeoffset": 883,\
+    "pingtime": 0.066953,\
+    "minping": 0.066953,\
+    "version": 70015,\
+    "subver": "/Satoshi:0.16.3/",\
+    "inbound": false,\
+    "addnode": false,\
+    "startingheight": 1664601,\
+    "banscore": 0,\
+    "synced_headers": 179999,\
+    "synced_blocks": -1,\
+    "inflight": [\
+    ],\
+    "whitelisted": false,\
+    "permissions": [\
+    ],\
+    "minfeefilter": 0.00001000,\
+    "bytessent_per_msg": \{\
+      "feefilter": 32,\
+      "getaddr": 24,\
+      "getheaders": 81534,\
+      "ping": 32,\
+      "pong": 32,\
+      "sendcmpct": 66,\
+      "sendheaders": 24,\
+      "verack": 24,\
+      "version": 142\
+    \},\
+    "bytesrecv_per_msg": \{\
+      "addr": 55,\
+      "feefilter": 32,\
+      "getheaders": 1085,\
+      "headers": 13934322,\
+      "inv": 338,\
+      "ping": 32,\
+      "pong": 32,\
+      "sendcmpct": 66,\
+      "sendheaders": 24,\
+      "verack": 24,\
+      "version": 126\
+    \}\
+  \},\
+  \{\
+    "id": 5,\
+    "addr": "115.27.243.20:18333",\
+    "addrlocal": "82.226.83.16:55337",\
+    "addrbind": "10.0.2.15:43970",\
+    "services": "0000000000000409",\
+    "servicesnames": [\
+      "NETWORK",\
+      "WITNESS",\
+      "NETWORK_LIMITED"\
+    ],\
+    "relaytxes": true,\
+    "lastsend": 1580577447,\
+    "lastrecv": 1580577456,\
+    "bytessent": 376,\
+    "bytesrecv": 1708,\
+    "conntime": 1580577446,\
+    "timeoffset": 884,\
+    "pingtime": 0.252131,\
+    "minping": 0.252131,\
+    "version": 70015,\
+    "subver": "/Satoshi:0.19.0.1/",\
+    "inbound": false,\
+    "addnode": false,\
+    "startingheight": 1664601,\
+    "banscore": 0,\
+    "synced_headers": -1,\
+    "synced_blocks": -1,\
+    "inflight": [\
+    ],\
+    "whitelisted": false,\
+    "permissions": [\
+    ],\
+    "minfeefilter": 0.00001000,\
+    "bytessent_per_msg": \{\
+      "feefilter": 32,\
+      "getaddr": 24,\
+      "ping": 32,\
+      "pong": 32,\
+      "sendcmpct": 66,\
+      "sendheaders": 24,\
+      "verack": 24,\
+      "version": 142\
+    \},\
+    "bytesrecv_per_msg": \{\
+      "addr": 55,\
+      "feefilter": 32,\
+      "getheaders": 1085,\
+      "inv": 230,\
+      "ping": 32,\
+      "pong": 32,\
+      "sendcmpct": 66,\
+      "sendheaders": 24,\
+      "verack": 24,\
+      "version": 128\
+    \}\
+  \},\
+  \{\
+    "id": 6,\
+    "addr": "13.58.125.247:18333",\
+    "addrlocal": "82.226.83.16:55338",\
+    "addrbind": "10.0.2.15:54252",\
+    "services": "0000000000000409",\
+    "servicesnames": [\
+      "NETWORK",\
+      "WITNESS",\
+      "NETWORK_LIMITED"\
+    ],\
+    "relaytxes": true,\
+    "lastsend": 1580577447,\
+    "lastrecv": 1580577457,\
+    "bytessent": 376,\
+    "bytesrecv": 1841,\
+    "conntime": 1580577447,\
+    "timeoffset": 884,\
+    "pingtime": 0.126494,\
+    "minping": 0.126494,\
+    "version": 70015,\
+    "subver": "/Satoshi:0.19.0.1/",\
+    "inbound": false,\
+    "addnode": false,\
+    "startingheight": 1664601,\
+    "banscore": 0,\
+    "synced_headers": -1,\
+    "synced_blocks": -1,\
+    "inflight": [\
+    ],\
+    "whitelisted": false,\
+    "permissions": [\
+    ],\
+    "minfeefilter": 0.00001000,\
+    "bytessent_per_msg": \{\
+      "feefilter": 32,\
+      "getaddr": 24,\
+      "ping": 32,\
+      "pong": 32,\
+      "sendcmpct": 66,\
+      "sendheaders": 24,\
+      "verack": 24,\
+      "version": 142\
+    \},\
+    "bytesrecv_per_msg": \{\
+      "addr": 55,\
+      "feefilter": 32,\
+      "getheaders": 1085,\
+      "inv": 363,\
+      "ping": 32,\
+      "pong": 32,\
+      "sendcmpct": 66,\
+      "sendheaders": 24,\
+      "verack": 24,\
+      "version": 128\
+    \}\
+  \},\
+  \{\
+    "id": 7,\
+    "addr": "46.229.165.145:18333",\
+    "addrlocal": "82.226.83.16:55339",\
+    "addrbind": "10.0.2.15:57864",\
+    "services": "000000000000040d",\
+    "servicesnames": [\
+      "NETWORK",\
+      "BLOOM",\
+      "WITNESS",\
+      "NETWORK_LIMITED"\
+    ],\
+    "relaytxes": true,\
+    "lastsend": 1580577448,\
+    "lastrecv": 1580577453,\
+    "bytessent": 376,\
+    "bytesrecv": 31566,\
+    "conntime": 1580577447,\
+    "timeoffset": 885,\
+    "pingtime": 0.179526,\
+    "minping": 0.179526,\
+    "version": 70015,\
+    "subver": "/Satoshi:0.17.0.1/",\
+    "inbound": false,\
+    "addnode": false,\
+    "startingheight": 1664601,\
+    "banscore": 0,\
+    "synced_headers": -1,\
+    "synced_blocks": -1,\
+    "inflight": [\
+    ],\
+    "whitelisted": false,\
+    "permissions": [\
+    ],\
+    "minfeefilter": 0.00001000,\
+    "bytessent_per_msg": \{\
+      "feefilter": 32,\
+      "getaddr": 24,\
+      "ping": 32,\
+      "pong": 32,\
+      "sendcmpct": 66,\
+      "sendheaders": 24,\
+      "verack": 24,\
+      "version": 142\
+    \},\
+    "bytesrecv_per_msg": \{\
+      "addr": 30082,\
+      "feefilter": 32,\
+      "getheaders": 1085,\
+      "inv": 61,\
+      "ping": 32,\
+      "pong": 32,\
+      "sendcmpct": 66,\
+      "sendheaders": 24,\
+      "verack": 24,\
+      "version": 128\
+    \}\
+  \},\
+  \{\
+    "id": 9,\
+    "addr": "3.15.214.179:18333",\
+    "addrlocal": "82.226.83.16:55341",\
+    "addrbind": "10.0.2.15:58088",\
+    "services": "0000000000000409",\
+    "servicesnames": [\
+      "NETWORK",\
+      "WITNESS",\
+      "NETWORK_LIMITED"\
+    ],\
+    "relaytxes": true,\
+    "lastsend": 1580577449,\
+    "lastrecv": 1580577455,\
+    "bytessent": 376,\
+    "bytesrecv": 31505,\
+    "conntime": 1580577448,\
+    "timeoffset": 883,\
+    "pingtime": 0.108285,\
+    "minping": 0.108285,\
+    "version": 70015,\
+    "subver": "/Satoshi:0.19.0.1/",\
+    "inbound": false,\
+    "addnode": false,\
+    "startingheight": 1664601,\
+    "banscore": 0,\
+    "synced_headers": -1,\
+    "synced_blocks": -1,\
+    "inflight": [\
+    ],\
+    "whitelisted": false,\
+    "permissions": [\
+    ],\
+    "minfeefilter": 0.00001000,\
+    "bytessent_per_msg": \{\
+      "feefilter": 32,\
+      "getaddr": 24,\
+      "ping": 32,\
+      "pong": 32,\
+      "sendcmpct": 66,\
+      "sendheaders": 24,\
+      "verack": 24,\
+      "version": 142\
+    \},\
+    "bytesrecv_per_msg": \{\
+      "addr": 30082,\
+      "feefilter": 32,\
+      "getheaders": 1085,\
+      "ping": 32,\
+      "pong": 32,\
+      "sendcmpct": 66,\
+      "sendheaders": 24,\
+      "verack": 24,\
+      "version": 128\
+    \}\
+  \},\
+  \{\
+    "id": 10,\
+    "addr": "31.186.25.33:18333",\
+    "addrlocal": "82.226.83.16:55342",\
+    "addrbind": "10.0.2.15:58966",\
+    "services": "000000000000040d",\
+    "servicesnames": [\
+      "NETWORK",\
+      "BLOOM",\
+      "WITNESS",\
+      "NETWORK_LIMITED"\
+    ],\
+    "relaytxes": true,\
+    "lastsend": 1580577449,\
+    "lastrecv": 1580577459,\
+    "bytessent": 376,\
+    "bytesrecv": 31769,\
+    "conntime": 1580577449,\
+    "timeoffset": 885,\
+    "pingtime": 0.191263,\
+    "minping": 0.191263,\
+    "version": 70015,\
+    "subver": "/Satoshi:0.16.3/",\
+    "inbound": false,\
+    "addnode": false,\
+    "startingheight": 1664601,\
+    "banscore": 0,\
+    "synced_headers": -1,\
+    "synced_blocks": -1,\
+    "inflight": [\
+    ],\
+    "whitelisted": false,\
+    "permissions": [\
+    ],\
+    "minfeefilter": 0.00001000,\
+    "bytessent_per_msg": \{\
+      "feefilter": 32,\
+      "getaddr": 24,\
+      "ping": 32,\
+      "pong": 32,\
+      "sendcmpct": 66,\
+      "sendheaders": 24,\
+      "verack": 24,\
+      "version": 142\
+    \},\
+    "bytesrecv_per_msg": \{\
+      "addr": 30082,\
+      "feefilter": 32,\
+      "getheaders": 1085,\
+      "inv": 266,\
+      "ping": 32,\
+      "pong": 32,\
+      "sendcmpct": 66,\
+      "sendheaders": 24,\
+      "verack": 24,\
+      "version": 126\
+    \}\
+  \},\
+  \{\
+    "id": 13,\
+    "addr": "88.198.54.148:18333",\
+    "addrlocal": "82.226.83.16:55345",\
+    "addrbind": "10.0.2.15:45522",\
+    "services": "000000000000040d",\
+    "servicesnames": [\
+      "NETWORK",\
+      "BLOOM",\
+      "WITNESS",\
+      "NETWORK_LIMITED"\
+    ],\
+    "relaytxes": true,\
+    "lastsend": 1580577452,\
+    "lastrecv": 1580577458,\
+    "bytessent": 376,\
+    "bytesrecv": 1718,\
+    "conntime": 1580577452,\
+    "timeoffset": 885,\
+    "pingtime": 0.08434999999999999,\
+    "minping": 0.08434999999999999,\
+    "version": 70015,\
+    "subver": "/Satoshi:0.18.99/",\
+    "inbound": false,\
+    "addnode": false,\
+    "startingheight": 1664601,\
+    "banscore": 0,\
+    "synced_headers": -1,\
+    "synced_blocks": -1,\
+    "inflight": [\
+    ],\
+    "whitelisted": false,\
+    "permissions": [\
+    ],\
+    "minfeefilter": 0.00001000,\
+    "bytessent_per_msg": \{\
+      "feefilter": 32,\
+      "getaddr": 24,\
+      "ping": 32,\
+      "pong": 32,\
+      "sendcmpct": 66,\
+      "sendheaders": 24,\
+      "verack": 24,\
+      "version": 142\
+    \},\
+    "bytesrecv_per_msg": \{\
+      "addr": 55,\
+      "feefilter": 32,\
+      "getheaders": 1085,\
+      "inv": 241,\
+      "ping": 32,\
+      "pong": 32,\
+      "sendcmpct": 66,\
+      "sendheaders": 24,\
+      "verack": 24,\
+      "version": 127\
+    \}\
+  \}\
+]\
+
+\b meelkdevmac@meelkdevmac-VirtualBox:~$ bitcoin-cli addnode 127.0.0.1:18332 add\
+meelkdevmac@meelkdevmac-VirtualBox:~$ bitcoin-cli getaddednodeinfo
+\b0 \
+[\
+  \{\
+    "addednode": "127.0.0.1:18332", ## NOEUD AJOUTE\
+    "connected": false, ##MAIS NON CONNECTE\
+    "addresses": [\
+    ]\
+  \}\
+]\
+
+\b meelkdevmac@meelkdevmac-VirtualBox:~$ bitcoin-cli getpeerinfo
+\b0 \
+[ \cf2 ## TOUJOURS RIEN > EN TESTENT IL FAUT LE CONNECTER\cf0 \
+  \{\
+    "id": 3,\
+    "addr": "34.250.169.52:18333",\
+    "addrlocal": "82.226.83.16:55335",\
+    "addrbind": "10.0.2.15:36902",\
+    "services": "000000000000040d",\
+    "servicesnames": [\
+      "NETWORK",\
+      "BLOOM",\
+      "WITNESS",\
+      "NETWORK_LIMITED"\
+    ],\
+    "relaytxes": true,\
+    "lastsend": 1580578457,\
+    "lastrecv": 1580578457,\
+    "bytessent": 2022991,\
+    "bytesrecv": 216301285,\
+    "conntime": 1580577445,\
+    "timeoffset": 883,\
+    "pingtime": 0.036577,\
+    "minping": 0.029789,\
+    "version": 70015,\
+    "subver": "/Satoshi:0.16.3/",\
+    "inbound": false,\
+    "addnode": false,\
+    "startingheight": 1664601,\
+    "banscore": 0,\
+    "synced_headers": 1664603,\
+    "synced_blocks": 103545,\
+    "inflight": [\
+    ],\
+    "whitelisted": false,\
+    "permissions": [\
+    ],\
+    "minfeefilter": 0.00001000,\
+    "bytessent_per_msg": \{\
+      "feefilter": 32,\
+      "getaddr": 24,\
+      "getdata": 779935,\
+      "getheaders": 1242136,\
+      "ping": 288,\
+      "pong": 320,\
+      "sendcmpct": 66,\
+      "sendheaders": 24,\
+      "verack": 24,\
+      "version": 142\
+    \},\
+    "bytesrecv_per_msg": \{\
+      "addr": 30082,\
+      "block": 25941240,\
+      "feefilter": 32,\
+      "getheaders": 1085,\
+      "headers": 190317544,\
+      "inv": 10454,\
+      "ping": 320,\
+      "pong": 288,\
+      "sendcmpct": 66,\
+      "sendheaders": 24,\
+      "verack": 24,\
+      "version": 126\
+    \}\
+  \},\
+  \{\
+    "id": 5,\
+    "addr": "115.27.243.20:18333",\
+    "addrlocal": "82.226.83.16:55337",\
+    "addrbind": "10.0.2.15:43970",\
+    "services": "0000000000000409",\
+    "servicesnames": [\
+      "NETWORK",\
+      "WITNESS",\
+      "NETWORK_LIMITED"\
+    ],\
+    "relaytxes": true,\
+    "lastsend": 1580578458,\
+    "lastrecv": 1580578458,\
+    "bytessent": 615819,\
+    "bytesrecv": 60372026,\
+    "conntime": 1580577446,\
+    "timeoffset": 884,\
+    "pingtime": 0.304271,\
+    "minping": 0.252131,\
+    "version": 70015,\
+    "subver": "/Satoshi:0.19.0.1/",\
+    "inbound": false,\
+    "addnode": false,\
+    "startingheight": 1664601,\
+    "banscore": 0,\
+    "synced_headers": 1664603,\
+    "synced_blocks": 103545,\
+    "inflight": [\
+    ],\
+    "whitelisted": false,\
+    "permissions": [\
+    ],\
+    "minfeefilter": 0.00001000,\
+    "bytessent_per_msg": \{\
+      "feefilter": 32,\
+      "getaddr": 24,\
+      "getdata": 261384,\
+      "getheaders": 353515,\
+      "ping": 288,\
+      "pong": 320,\
+      "sendcmpct": 66,\
+      "sendheaders": 24,\
+      "verack": 24,\
+      "version": 142\
+    \},\
+    "bytesrecv_per_msg": \{\
+      "addr": 30082,\
+      "block": 7644312,\
+      "feefilter": 32,\
+      "getheaders": 1085,\
+      "headers": 52658881,\
+      "inv": 10490,\
+      "ping": 320,\
+      "pong": 288,\
+      "sendcmpct": 66,\
+      "sendheaders": 24,\
+      "verack": 24,\
+      "version": 128\
+    \}\
+  \},\
+  \{\
+    "id": 7,\
+    "addr": "46.229.165.145:18333",\
+    "addrlocal": "82.226.83.16:55339",\
+    "addrbind": "10.0.2.15:57864",\
+    "services": "000000000000040d",\
+    "servicesnames": [\
+      "NETWORK",\
+      "BLOOM",\
+      "WITNESS",\
+      "NETWORK_LIMITED"\
+    ],\
+    "relaytxes": true,\
+    "lastsend": 1580578457,\
+    "lastrecv": 1580578458,\
+    "bytessent": 889495,\
+    "bytesrecv": 73217094,\
+    "conntime": 1580577447,\
+    "timeoffset": 885,\
+    "pingtime": 1.218548,\
+    "minping": 0.11061,\
+    "version": 70015,\
+    "subver": "/Satoshi:0.17.0.1/",\
+    "inbound": false,\
+    "addnode": false,\
+    "startingheight": 1664601,\
+    "banscore": 0,\
+    "synced_headers": 1664603,\
+    "synced_blocks": 103545,\
+    "inflight": [\
+    ],\
+    "whitelisted": false,\
+    "permissions": [\
+    ],\
+    "minfeefilter": 0.00001000,\
+    "bytessent_per_msg": \{\
+      "feefilter": 32,\
+      "getaddr": 24,\
+      "getdata": 511190,\
+      "getheaders": 377385,\
+      "ping": 288,\
+      "pong": 320,\
+      "sendcmpct": 66,\
+      "sendheaders": 24,\
+      "verack": 24,\
+      "version": 142\
+    \},\
+    "bytesrecv_per_msg": \{\
+      "addr": 30082,\
+      "block": 16902265,\
+      "feefilter": 32,\
+      "getheaders": 1085,\
+      "headers": 56272426,\
+      "inv": 10354,\
+      "ping": 320,\
+      "pong": 288,\
+      "sendcmpct": 66,\
+      "sendheaders": 24,\
+      "verack": 24,\
+      "version": 128\
+    \}\
+  \},\
+  \{\
+    "id": 9,\
+    "addr": "3.15.214.179:18333",\
+    "addrlocal": "82.226.83.16:55341",\
+    "addrbind": "10.0.2.15:58088",\
+    "services": "0000000000000409",\
+    "servicesnames": [\
+      "NETWORK",\
+      "WITNESS",\
+      "NETWORK_LIMITED"\
+    ],\
+    "relaytxes": true,\
+    "lastsend": 1580578457,\
+    "lastrecv": 1580578457,\
+    "bytessent": 998619,\
+    "bytesrecv": 75650508,\
+    "conntime": 1580577448,\
+    "timeoffset": 883,\
+    "pingtime": 0.109824,\
+    "minping": 0.108285,\
+    "version": 70015,\
+    "subver": "/Satoshi:0.19.0.1/",\
+    "inbound": false,\
+    "addnode": false,\
+    "startingheight": 1664601,\
+    "banscore": 0,\
+    "synced_headers": 1664603,\
+    "synced_blocks": 103545,\
+    "inflight": [\
+    ],\
+    "whitelisted": false,\
+    "permissions": [\
+    ],\
+    "minfeefilter": 0.00001000,\
+    "bytessent_per_msg": \{\
+      "feefilter": 32,\
+      "getaddr": 24,\
+      "getdata": 621367,\
+      "getheaders": 376332,\
+      "ping": 288,\
+      "pong": 320,\
+      "sendcmpct": 66,\
+      "sendheaders": 24,\
+      "verack": 24,\
+      "version": 142\
+    \},\
+    "bytesrecv_per_msg": \{\
+      "addr": 30082,\
+      "block": 19497667,\
+      "feefilter": 32,\
+      "getheaders": 1085,\
+      "headers": 56110399,\
+      "inv": 10393,\
+      "ping": 320,\
+      "pong": 288,\
+      "sendcmpct": 66,\
+      "sendheaders": 24,\
+      "verack": 24,\
+      "version": 128\
+    \}\
+  \},\
+  \{\
+    "id": 10,\
+    "addr": "31.186.25.33:18333",\
+    "addrlocal": "82.226.83.16:55342",\
+    "addrbind": "10.0.2.15:58966",\
+    "services": "000000000000040d",\
+    "servicesnames": [\
+      "NETWORK",\
+      "BLOOM",\
+      "WITNESS",\
+      "NETWORK_LIMITED"\
+    ],\
+    "relaytxes": true,\
+    "lastsend": 1580578457,\
+    "lastrecv": 1580578457,\
+    "bytessent": 791764,\
+    "bytesrecv": 68032790,\
+    "conntime": 1580577449,\
+    "timeoffset": 885,\
+    "pingtime": 0.058561,\
+    "minping": 0.054422,\
+    "version": 70015,\
+    "subver": "/Satoshi:0.16.3/",\
+    "inbound": false,\
+    "addnode": false,\
+    "startingheight": 1664601,\
+    "banscore": 0,\
+    "synced_headers": 1664603,\
+    "synced_blocks": 103545,\
+    "inflight": [\
+    ],\
+    "whitelisted": false,\
+    "permissions": [\
+    ],\
+    "minfeefilter": 0.00001000,\
+    "bytessent_per_msg": \{\
+      "feefilter": 32,\
+      "getaddr": 24,\
+      "getdata": 414512,\
+      "getheaders": 376332,\
+      "ping": 288,\
+      "pong": 320,\
+      "sendcmpct": 66,\
+      "sendheaders": 24,\
+      "verack": 24,\
+      "version": 142\
+    \},\
+    "bytesrecv_per_msg": \{\
+      "addr": 30082,\
+      "block": 11879901,\
+      "feefilter": 32,\
+      "getheaders": 1085,\
+      "headers": 56110399,\
+      "inv": 10443,\
+      "ping": 320,\
+      "pong": 288,\
+      "sendcmpct": 66,\
+      "sendheaders": 24,\
+      "verack": 24,\
+      "version": 126\
+    \}\
+  \},\
+  \{\
+    "id": 13,\
+    "addr": "88.198.54.148:18333",\
+    "addrlocal": "82.226.83.16:55345",\
+    "addrbind": "10.0.2.15:45522",\
+    "services": "000000000000040d",\
+    "servicesnames": [\
+      "NETWORK",\
+      "BLOOM",\
+      "WITNESS",\
+      "NETWORK_LIMITED"\
+    ],\
+    "relaytxes": true,\
+    "lastsend": 1580578457,\
+    "lastrecv": 1580578457,\
+    "bytessent": 1363286,\
+    "bytesrecv": 85515374,\
+    "conntime": 1580577452,\
+    "timeoffset": 885,\
+    "pingtime": 0.034867,\
+    "minping": 0.029447,\
+    "version": 70015,\
+    "subver": "/Satoshi:0.18.99/",\
+    "inbound": false,\
+    "addnode": false,\
+    "startingheight": 1664601,\
+    "banscore": 0,\
+    "synced_headers": 1664603,\
+    "synced_blocks": 103545,\
+    "inflight": [\
+    ],\
+    "whitelisted": false,\
+    "permissions": [\
+    ],\
+    "minfeefilter": 0.00001000,\
+    "bytessent_per_msg": \{\
+      "feefilter": 32,\
+      "getaddr": 24,\
+      "getdata": 984981,\
+      "getheaders": 377385,\
+      "ping": 288,\
+      "pong": 320,\
+      "sendcmpct": 66,\
+      "sendheaders": 24,\
+      "verack": 24,\
+      "version": 142\
+    \},\
+    "bytesrecv_per_msg": \{\
+      "addr": 30082,\
+      "block": 29200729,\
+      "feefilter": 32,\
+      "getheaders": 1085,\
+      "headers": 56272451,\
+      "inv": 10146,\
+      "ping": 320,\
+      "pong": 288,\
+      "sendcmpct": 66,\
+      "sendheaders": 24,\
+      "verack": 24,\
+      "version": 127\
+    \}\
+  \},\
+  \{\
+    "id": 15,\
+    "addr": "18.191.198.91:18333",\
+    "addrlocal": "82.226.83.16:55348",\
+    "addrbind": "10.0.2.15:52444",\
+    "services": "000000000000040d",\
+    "servicesnames": [\
+      "NETWORK",\
+      "BLOOM",\
+      "WITNESS",\
+      "NETWORK_LIMITED"\
+    ],\
+    "relaytxes": true,\
+    "lastsend": 1580578456,\
+    "lastrecv": 1580578458,\
+    "bytessent": 983379,\
+    "bytesrecv": 78273041,\
+    "conntime": 1580577461,\
+    "timeoffset": 888,\
+    "pingtime": 0.159716,\
+    "minping": 0.09661500000000001,\
+    "version": 70015,\
+    "subver": "/Satoshi:0.18.0/",\
+    "inbound": false,\
+    "addnode": false,\
+    "startingheight": 1664601,\
+    "banscore": 0,\
+    "synced_headers": 1664603,\
+    "synced_blocks": 103545,\
+    "inflight": [\
+      103546,\
+      103550,\
+      103554,\
+      103558,\
+      103562,\
+      103566,\
+      103570,\
+      103574,\
+      103578,\
+      103584,\
+      103592,\
+      103600,\
+      103609,\
+      103618,\
+      104389,\
+      104390\
+    ],\
+    "whitelisted": false,\
+    "permissions": [\
+    ],\
+    "minfeefilter": 0.00001000,\
+    "bytessent_per_msg": \{\
+      "feefilter": 32,\
+      "getaddr": 24,\
+      "getdata": 606127,\
+      "getheaders": 376332,\
+      "ping": 288,\
+      "pong": 320,\
+      "sendcmpct": 66,\
+      "sendheaders": 24,\
+      "verack": 24,\
+      "version": 142\
+    \},\
+    "bytesrecv_per_msg": \{\
+      "addr": 30082,\
+      "block": 21569716,\
+      "feefilter": 32,\
+      "getheaders": 1085,\
+      "headers": 56110399,\
+      "inv": 10127,\
+      "ping": 320,\
+      "pong": 288,\
+      "sendcmpct": 66,\
+      "sendheaders": 24,\
+      "verack": 24,\
+      "version": 126\
+    \}\
+  \},\
+  \{\
+    "id": 16,\
+    "addr": "34.207.246.78:18333",\
+    "addrlocal": "82.226.83.16:55388",\
+    "addrbind": "10.0.2.15:40076",\
+    "services": "0000000000000409",\
+    "servicesnames": [\
+      "NETWORK",\
+      "WITNESS",\
+      "NETWORK_LIMITED"\
+    ],\
+    "relaytxes": false,\
+    "lastsend": 1580578456,\
+    "lastrecv": 1580578458,\
+    "bytessent": 831508,\
+    "bytesrecv": 18883245,\
+    "conntime": 1580577655,\
+    "timeoffset": 954,\
+    "pingtime": 0.107839,\
+    "minping": 0.094752,\
+    "version": 70015,\
+    "subver": "/Satoshi:0.19.0.1/",\
+    "inbound": false,\
+    "addnode": false,\
+    "startingheight": 1664602,\
+    "banscore": 0,\
+    "synced_headers": 1664603,\
+    "synced_blocks": 103545,\
+    "inflight": [\
+      103579,\
+      103585,\
+      103664,\
+      103672,\
+      103678,\
+      103684,\
+      103861,\
+      103868,\
+      103875,\
+      103882,\
+      104068,\
+      104310,\
+      104421\
+    ],\
+    "whitelisted": false,\
+    "permissions": [\
+    ],\
+    "minfeefilter": 0.00000000,\
+    "bytessent_per_msg": \{\
+      "getdata": 829719,\
+      "getheaders": 1085,\
+      "ping": 224,\
+      "pong": 224,\
+      "sendcmpct": 66,\
+      "sendheaders": 24,\
+      "verack": 24,\
+      "version": 142\
+    \},\
+    "bytesrecv_per_msg": \{\
+      "addr": 55,\
+      "block": 18686253,\
+      "feefilter": 32,\
+      "getheaders": 1085,\
+      "headers": 212,\
+      "ping": 224,\
+      "pong": 224,\
+      "sendcmpct": 66,\
+      "sendheaders": 24,\
+      "verack": 24,\
+      "version": 128\
+    \}\
+  \},\
+  \{\
+    "id": 18,\
+    "addr": "142.93.147.243:18333",\
+    "addrlocal": "82.226.83.16:55420",\
+    "addrbind": "10.0.2.15:43470",\
+    "services": "000000000000040d",\
+    "servicesnames": [\
+      "NETWORK",\
+      "BLOOM",\
+      "WITNESS",\
+      "NETWORK_LIMITED"\
+    ],\
+    "relaytxes": false,\
+    "lastsend": 1580578457,\
+    "lastrecv": 1580578457,\
+    "bytessent": 762277,\
+    "bytesrecv": 19100521,\
+    "conntime": 1580577783,\
+    "timeoffset": 976,\
+    "pingtime": 3.584285,\
+    "minping": 0.10846,\
+    "version": 70015,\
+    "subver": "/Satoshi:0.18.0/",\
+    "inbound": false,\
+    "addnode": false,\
+    "startingheight": 1664602,\
+    "banscore": 0,\
+    "synced_headers": 1664603,\
+    "synced_blocks": 103545,\
+    "inflight": [\
+    ],\
+    "whitelisted": false,\
+    "permissions": [\
+    ],\
+    "minfeefilter": 0.00000000,\
+    "bytessent_per_msg": \{\
+      "getdata": 760552,\
+      "getheaders": 1085,\
+      "ping": 192,\
+      "pong": 192,\
+      "sendcmpct": 66,\
+      "sendheaders": 24,\
+      "verack": 24,\
+      "version": 142\
+    \},\
+    "bytesrecv_per_msg": \{\
+      "addr": 55,\
+      "block": 19098513,\
+      "feefilter": 32,\
+      "getheaders": 1085,\
+      "headers": 212,\
+      "ping": 192,\
+      "pong": 192,\
+      "sendcmpct": 66,\
+      "sendheaders": 24,\
+      "verack": 24,\
+      "version": 126\
+    \}\
+  \},\
+  \{\
+    "id": 21,\
+    "addr": "13.58.125.247:18333",\
+    "addrlocal": "82.226.83.16:55434",\
+    "addrbind": "10.0.2.15:54474",\
+    "services": "0000000000000409",\
+    "servicesnames": [\
+      "NETWORK",\
+      "WITNESS",\
+      "NETWORK_LIMITED"\
+    ],\
+    "relaytxes": true,\
+    "lastsend": 1580578457,\
+    "lastrecv": 1580578458,\
+    "bytessent": 302457,\
+    "bytesrecv": 16282582,\
+    "conntime": 1580578100,\
+    "timeoffset": 986,\
+    "pingtime": 0.118261,\
+    "minping": 0.118261,\
+    "version": 70015,\
+    "subver": "/Satoshi:0.19.0.1/",\
+    "inbound": false,\
+    "addnode": false,\
+    "startingheight": 1664603,\
+    "banscore": 0,\
+    "synced_headers": 1664603,\
+    "synced_blocks": 103545,\
+    "inflight": [\
+      103568,\
+      103572,\
+      103576,\
+      103580,\
+      103586,\
+      103594,\
+      103602,\
+      103611,\
+      103620,\
+      103628,\
+      103636,\
+      104453,\
+      104454,\
+      104546\
+    ],\
+    "whitelisted": false,\
+    "permissions": [\
+    ],\
+    "minfeefilter": 0.00001000,\
+    "bytessent_per_msg": \{\
+      "feefilter": 32,\
+      "getaddr": 24,\
+      "getdata": 300836,\
+      "getheaders": 1085,\
+      "ping": 96,\
+      "pong": 128,\
+      "sendcmpct": 66,\
+      "sendheaders": 24,\
+      "verack": 24,\
+      "version": 142\
+    \},\
+    "bytesrecv_per_msg": \{\
+      "addr": 30082,\
+      "block": 16191310,\
+      "feefilter": 32,\
+      "getheaders": 1085,\
+      "headers": 106,\
+      "inv": 3394,\
+      "ping": 128,\
+      "pong": 96,\
+      "sendcmpct": 66,\
+      "sendheaders": 24,\
+      "verack": 24,\
+      "version": 128\
+    \}\
+  \}\
+]\
+\
+\
+}

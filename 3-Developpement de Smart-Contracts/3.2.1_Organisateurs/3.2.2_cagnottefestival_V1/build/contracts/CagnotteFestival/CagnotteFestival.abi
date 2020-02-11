@@ -1,0 +1,85 @@
+[
+    {
+        "constant": false,
+        "inputs": [
+            {
+                "name": "destinataire",
+                "type": "address"
+            },
+            {
+                "name": "montant",
+                "type": "uint256"
+            }
+        ],
+        "name": "payer",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "constant": false,
+        "inputs": [],
+        "name": "acheterTicket",
+        "outputs": [],
+        "payable": true,
+        "stateMutability": "payable",
+        "type": "function"
+    },
+    {
+        "constant": true,
+        "inputs": [
+            {
+                "name": "",
+                "type": "address"
+            }
+        ],
+        "name": "festivaliers",
+        "outputs": [
+            {
+                "name": "",
+                "type": "bool"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "constant": false,
+        "inputs": [
+            {
+                "name": "_orga",
+                "type": "address"
+            },
+            {
+                "name": "_parts",
+                "type": "uint256"
+            }
+        ],
+        "name": "transfererOrga",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "constant": true,
+        "inputs": [
+            {
+                "name": "_orga",
+                "type": "address"
+            }
+        ],
+        "name": "estOrga",
+        "outputs": [
+            {
+                "name": "",
+                "type": "bool"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+    }
+]

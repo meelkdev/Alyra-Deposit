@@ -1,0 +1,81 @@
+[
+    {
+        "constant": true,
+        "inputs": [
+            {
+                "name": "_indice",
+                "type": "uint256"
+            }
+        ],
+        "name": "comptabiliser",
+        "outputs": [
+            {
+                "name": "",
+                "type": "int256"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "constant": false,
+        "inputs": [],
+        "name": "rejoindre",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "constant": false,
+        "inputs": [
+            {
+                "name": "_description",
+                "type": "string"
+            }
+        ],
+        "name": "proposerDecision",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "constant": true,
+        "inputs": [
+            {
+                "name": "_user",
+                "type": "address"
+            }
+        ],
+        "name": "estMembre",
+        "outputs": [
+            {
+                "name": "",
+                "type": "bool"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "constant": false,
+        "inputs": [
+            {
+                "name": "_indice",
+                "type": "uint256"
+            },
+            {
+                "name": "_value",
+                "type": "bool"
+            }
+        ],
+        "name": "voter",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+    }
+]

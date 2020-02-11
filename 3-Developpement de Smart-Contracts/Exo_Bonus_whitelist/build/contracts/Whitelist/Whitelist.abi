@@ -1,0 +1,53 @@
+[
+    {
+        "constant": false,
+        "inputs": [
+            {
+                "name": "_nom",
+                "type": "string"
+            },
+            {
+                "name": "_prenom",
+                "type": "string"
+            },
+            {
+                "name": "_address",
+                "type": "address"
+            }
+        ],
+        "name": "ajouterPerson",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "constant": true,
+        "inputs": [
+            {
+                "name": "",
+                "type": "address"
+            }
+        ],
+        "name": "persons",
+        "outputs": [
+            {
+                "name": "nom",
+                "type": "string"
+            },
+            {
+                "name": "prenom",
+                "type": "string"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "constructor"
+    }
+]
